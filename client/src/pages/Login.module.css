@@ -1,0 +1,130 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+
+.login-container {
+  height: 100vh;
+  /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  background-image: url('./assets/agri.png');
+  /* Background image */
+  background-size: cover;
+  /* Ensure the image covers the container */
+  background-position: center;
+  /* Center the background image */
+  font-family: 'Arial', sans-serif;
+  /* Font styling */
+}
+/* Header styling */
+header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 0;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  width: 100%;
+}
+
+header img {
+  position: absolute;
+  left: 20px;
+  /* Align the logo to the top-left */
+  top: 20px;
+  height: 50px;
+  /* Adjust logo size */
+  width: 50px;
+}
+
+/* Center "AGROW" in header */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 60px;
+  /* Ensure space for the logo */
+}
+
+/* Main container for login */
+#login {
+  background-color: #ffffff;
+  /* White background for the login form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  /* Adjust the form width */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Title of the login section */
+#login h2 {
+  font-size: 28px;
+  color: #2e8b57;
+  margin-bottom: 20px;
+}
+
+/* Input fields styling */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Button styling */
+input[type="submit"],
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #2e8b57;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}
+
+input[type="submit"]:hover,
+button {
+  background-color: #2e8b57;
+  /* Darker green on hover */
+}
+
+/* Error message styling */
+p {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Footer section styling */
+.footer {
+  margin-top: 20px;
+}
+
+.footer a {
+  color: #2e8b57;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

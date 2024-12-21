@@ -14,36 +14,39 @@
 - **Backend**: Node.js, Express.js  
 - **Database**: MongoDB  
 
-## Installation  
+## **Installation**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/RvRagav/Agricultural-Information-System.git
+   cd Agricultural-Information-System
+   ```
+2. Install dependencies for the backend:
+   ```bash
+   cd server
+   npm install
+   ```
+3. Install dependencies for the frontend:
+   ```bash
+   cd ../client
+   npm install
+   ```
+4. Set up the environment variables:
+   - Create a `.env` file in the `server` directory and add:
+     ```plaintext
+     MONGO_URI=your_mongodb_connection_string
+     PORT=your_server_port
+     ```
+5. Start the backend server:
+   ```bash
+   cd ../server
+   npm run dev
+   ```
+6. Start the frontend development server:
+   ```bash
+   cd ../client
+   npm start
+   ```
 
-### Clone the repository:  
-```bash
-git clone https://github.com/RvRagav/Agricultural-Information-System.git
-```
-cd Agricultural-Information-System
-
-### Install dependencies for the backend:
-cd server
-npm install
-
-### Install dependencies for the frontend:
-cd ../client
-npm install
-
-### Configure the environment variables:
-Create a .env file in the server directory.
-
-### Add the following details:
-MONGO_URI=your_mongodb_connection_string  
-PORT=your_server_port  
-
-### Start the backend server:
-cd ../server
-npm run dev
-
-### Start the frontend development server:
-cd ../client
-npm start
 
 ## **Usage**
 1. Navigate to the application in your web browser: `http://localhost:<3000>`.

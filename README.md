@@ -45,8 +45,7 @@ npm run dev
 cd ../client
 npm start
 
-## Usage
-Open your web browser and navigate to the application: http://localhost:<3000>
-Sign up or log in as a farmer to access all features.
-Use the dashboard to explore real-time weather updates, market prices, expert advice, and more.
-
+## **Usage**
+1. Navigate to the application in your web browser: `http://localhost:<3000>`.
+2. Sign up or log in as a farmer to access features.
+3. Explore real-time weather updates, market prices, and more from the dashboard.
